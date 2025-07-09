@@ -53,6 +53,15 @@ int main(void) {
     printf("=====> INFO CARTA 02 <=====\n");
     exibir_carta(estado2, codigo2, nome_da_cidade2, populacao2, area2, pib2, pontos_turisticos2, densidade2, pib_pc2);
 
+    comparacao(
+    populacao1, populacao2,
+    pontos_turisticos1, pontos_turisticos2,
+    area1, area2,
+    pib1, pib2,
+    densidade1, densidade2,
+    pib_pc1, pib_pc2
+);
+
     return 0;
 }
 
