@@ -3,10 +3,10 @@
 #define TAM_CODIGO 5
 #define TAM_NOME 100
 
-// Função de I/O
+// Declaração de Função de I/O
 // Essa função utiliza declaração de parâmetro por indicação através de ponteiro.
 void ler_carta(char *estado, char *codigo, char *nome_da_cidade, int *populacao, float *area, float *pib, int *pontos_turisticos);
-// Função de Exibição das Cartas
+// Declaração de Função de Exibição das Cartas
 void exibir_carta(char estado, char codigo, char nome_da_cidade, int populacao, float area, float pib, int pontos_turisticos);
 
 int main(void){
